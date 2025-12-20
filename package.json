@@ -1,0 +1,30 @@
+{
+  "name": "llm-reliability-gateway",
+  "version": "1.0.0",
+  "description": "LLM Gateway with reliability patterns - retries, circuit breakers, and validation",
+  "main": "dist/mock-provider.js",
+  "scripts": {
+    "mock": "ts-node src/mock-provider.ts",
+    "build": "tsc",
+    "start": "node dist/mock-provider.js"
+  },
+  "keywords": [
+    "llm",
+    "gateway",
+    "reliability",
+    "circuit-breaker",
+    "retry"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.17.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
+
